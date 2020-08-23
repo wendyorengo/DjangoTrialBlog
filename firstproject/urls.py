@@ -18,6 +18,6 @@ from django.urls import path
 from boards import views
 
 urlpatterns = [
-    path('homepage/', views.home),
+    path('', views.home),
     path('admin/', admin.site.urls),
 ]
